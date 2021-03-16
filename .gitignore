@@ -1,0 +1,57 @@
+
+*.log
+
+target/
+*/target/
+**/target/
+
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+*/.apt_generated
+**/.apt_generated
+
+.classpath
+*/.classpath
+**/.classpath
+
+.factorypath
+*/.factorypath
+**/.factorypath
+
+.project
+*/.project
+**/.project
+
+.settings
+*/.settings
+**/.settings
+
+.springBeans
+*/.springBeans
+**/.springBeans
+
+.sts4-cache
+*/.sts4-cache
+**/.sts4-cache
+
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
