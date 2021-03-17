@@ -78,3 +78,15 @@ AOP关键注解：
 
 
 
+### SpringMVC 工作流程
+
+<img src="screenshot/springmvc_workflow.jpg"/>
+
+SpringMVC运行原理：
+
+1. 客户端请求发送至DispatchServlet
+2. 由DispatchServlet查询HandlerMapping，找到处理请求的Controller
+3. DispatchServlet将请求发送给Controller
+4. Controller调用业务层处理请求，返回ModelAndView
+5. DispatchServlet查询视图解析器（ViewResolver）找到对应的视图（View）
+6. 视图负责将最终结果展示到客户端
